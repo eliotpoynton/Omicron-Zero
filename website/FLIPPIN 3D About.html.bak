@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>FLIPPIN 3D</title>
+  </head>
+  <body style="  background-image: url(&quot;http://s1.bwallpapers.com/wallpapers/2014/05/09/light-blue_034747169.jpg&quot;);">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style> <div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn"
+
+        onclick="closeNav()">×</a> <a href="FLIPPIN%203D%20Home%20Page.html">Home</a>
+      <a href="FLIPPIN%203D%20About.html">About</a> <a href="FLIPPIN%203D%20Gallery.html">Gallery</a>
+      <a href="Flippin%203D%20App.html">App</a> </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰&nbsp;Menu</span>
+    <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script> <i> <center><font size="4" face="Arial">
+          <h1>FLIPPIN 3D</h1>
+        </font></center>
+    </i>
+    <h2><font face="arial">About</font></h2>
+    <p1><font size="3" face="arial">The long board uses two 300 watt motors, one
+        at the front and one at the back, it also uses a [need milliamp]
+        milliamp hour battery which Tesla use in there cars today. This long
+        board is created purely by young teens and thats what makes this long
+        board that much more special.<br>
+        <br>
+        <b>Ruben Guscott</b><br>
+        <br>
+        Ruben Guscott is the man behind the luxurious design of this long board.
+        Some of the pictures which you see on the home page are only a handful
+        of Rubens' works. To create these renders Ruben used a really advanced
+        bit of software called Fusion 360 to make these pictures look better
+        than ever. To see more of Rubens works click the gallery link at the top
+        of the page.<br>
+      </font></p1><br>
+    <p></p>
+    <a href="https://twitter.com/Flippin3d" target="_blank">
+      <center><img src="580b57fcd9996e24bc43c53e.png" <="" body="" style="width: 115px; height: 115px;"></center>
+    </a>
+    
+  </body>
+</html>
